@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guìa Javascript</title>
+</head>
+<body>
+    <script>
+      function ObtenerImporteConImpuestos() {
+            var valorsinimpuestos=prompt("Indique por favor el valor sin impuestos");
+            var tipodeproducto=prompt("Indique por favor el tipo de producto"));
+            var valor;
+            switch (tipodeproducto){
+            case 1:
+                valor=((valorsinimpuestos*21)/100)+valorsinimpuestos;
+                alert(valor);
+                break;    
+            case 2:
+                valor=((valorsinimpuestos*10)/100)+valorsinimpuestos;
+                alert(valor);
+                break;
+            case 3:
+                valor=((valorsinimpuestos*5)/100)+valorsinimpuestos;
+                alert(valor);
+                break;
+            default:
+                break;
+            }   
+        }
+        ObtenerImporteConImpuestos();
+    </script>
+</body>
+</html>

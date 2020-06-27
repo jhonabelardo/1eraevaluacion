@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guìa Javascript</title>
+</head>
+<body>
+    <script>
+      function TipoMotor() {
+            var n1=prompt("Indique por favor el tipo de Motor, los valores posibles son 1, 2, 3, 4");
+            switch (n1){
+            case 0:
+                document.write("No hay establecido un valor definido para el tipo debomba");
+                break;    
+            case 1:
+                document.write("La bomba es una bomba de agua");
+                break;
+            case 2:
+                document.write("La bomba es una bomba de gasolina");
+                break;
+            case 3:
+                document.write("La bomba es una bomba de hormigón");
+                break;
+            case 4:
+                document.write("La bomba es una bomba de pasta alimenticia");
+                break;
+            default:
+                document.write("No existe un valor válido para tipo de bomba");
+            }   
+        }
+        TipoMotor();
+    </script>
+</body>
+</html>
+
+
